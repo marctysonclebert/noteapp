@@ -2471,6 +2471,7 @@ int drawable ic_mtrl_checked_circle 0x7f07006d
 int drawable ic_mtrl_chip_checked_black 0x7f07006e
 int drawable ic_mtrl_chip_checked_circle 0x7f07006f
 int drawable ic_mtrl_chip_close_circle 0x7f070070
+int drawable ic_search 0x7f07009f
 int drawable m3_appbar_background 0x7f070071
 int drawable m3_popupmenu_background_overlay 0x7f070072
 int drawable m3_radiobutton_ripple 0x7f070073
@@ -2500,6 +2501,7 @@ int drawable mtrl_popupmenu_background 0x7f07008a
 int drawable mtrl_popupmenu_background_overlay 0x7f07008b
 int drawable mtrl_tabs_default_indicator 0x7f07008c
 int drawable navigation_empty_icon 0x7f07008d
+int drawable note 0x7f07009e
 int drawable notification_action_background 0x7f07008e
 int drawable notification_bg 0x7f07008f
 int drawable notification_bg_low 0x7f070090
@@ -2836,6 +2838,7 @@ int id noState 0x7f08013c
 int id none 0x7f08013d
 int id normal 0x7f08013e
 int id north 0x7f08013f
+int id noteNumber 0x7f0801ec
 int id notes 0x7f080140
 int id notification_background 0x7f080141
 int id notification_main_column 0x7f080142
@@ -2882,6 +2885,7 @@ int id scrollIndicatorDown 0x7f08016a
 int id scrollIndicatorUp 0x7f08016b
 int id scrollView 0x7f08016c
 int id scrollable 0x7f08016d
+int id searchBar 0x7f0801ed
 int id searchBarArea 0x7f08016e
 int id search_badge 0x7f08016f
 int id search_bar 0x7f080170

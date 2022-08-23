@@ -6,14 +6,30 @@
     android:background="@color/black"
     tools:context=".fragments.NoteAddFragment">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="right"
+        android:text="22-08-2022"
+        android:textColor="@color/gold"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:gravity="top"
         android:inputType="textMultiLine"
-        android:padding="10dp"
-        android:textSize="20sp"
+        android:paddingTop="15dp"
+        android:lineHeight="30dp"
+        android:letterSpacing=".1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         android:text="@string/add_note_text"
         android:textColor="@color/gold"
-        android:gravity="top" />
+        android:background="@color/dark_gold"
+        android:textSize="20sp" />
 
 </FrameLayout>

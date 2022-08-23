@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import java.time.LocalDate;
@@ -38,12 +39,21 @@ public class NoteDAO {
     }
 
     @RequiresApi(api = Build.VERSION_CODES.O)
-    public List<Note> getNotes() {
+    public List<Note> getNotes(@Nullable String searchValue) {
 
         List<Note> notes = new ArrayList<>();
 
         SQLiteDatabase sqLiteDatabase = this.database.getReadableDatabase();
-        Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM " + this.database.NOTES_TABLE, null);
+
+        String query = "SELECT * FROM " + this.database.NOTES_TABLE;
+
+        if (searchValue != null) {
+            query = "SELECT * FROM " +
+                    this.database.NOTES_TABLE + " WHERE " +
+                    this.database.COLUMN_NOTE_CONTENTS + " LIKE %'" + searchValue + "%'";
+        }
+
+        Cursor cursor = sqLiteDatabase.rawQuery(query, null);
 
         if (cursor.moveToFirst()) {
             do {

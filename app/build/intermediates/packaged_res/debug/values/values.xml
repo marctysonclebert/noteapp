@@ -16,7 +16,7 @@
     <string name="contents_text">Contents Text</string>
     <string name="date_text">28-08-2022</string>
     <string name="main_title_text">Notes</string>
-    <string name="search_text">Search Note</string>
+    <string name="search_text">Search</string>
     <string name="title_text">Title</string>
     <style name="Theme.NoteApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         

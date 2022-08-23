@@ -3,7 +3,7 @@
 
     <!-- Main -->
     <string name="main_title_text">Notes</string>
-    <string name="search_text">Search Note</string>
+    <string name="search_text">Search</string>
     <string name="add_note_description">Add Note Icon</string>
     <string name="add_note_text">Add New Note</string>
 

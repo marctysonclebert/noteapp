@@ -13,13 +13,16 @@ color white
 drawable ic_add_note
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_search
+drawable note
 id addNoteBtn
 id contentsTextView
 id dateTextView
 id mainFrameLayout
+id noteNumber
 id notes
+id searchBar
 id searchBarArea
-id search_bar
 id title
 id titleTextView
 layout activity_main
