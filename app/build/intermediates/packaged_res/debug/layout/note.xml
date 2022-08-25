@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noteComponent"
     android:layout_width="match_parent"
-    android:layout_height="130dp"
+    android:layout_height="150dp"
     android:layout_marginStart="10dp"
     android:layout_marginTop="2dp"
     android:layout_marginEnd="10dp"
@@ -15,9 +16,21 @@
         android:padding="20dp">
 
         <TextView
-            android:id="@+id/titleTextView"
-            android:layout_width="wrap_content"
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/date_text"
+            android:textColor="@color/gold"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
             android:text="@string/title_text"
             android:textColor="@color/gold"
             android:textSize="36sp"
@@ -26,27 +39,16 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/dateTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/date_text"
-            android:textColor="@color/gold"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="@id/titleTextView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/titleTextView" />
-
-        <TextView
             android:id="@+id/contentsTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
             android:text="@string/contents_text"
             android:textColor="@color/gold"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/titleTextView"
             app:layout_constraintTop_toBottomOf="@id/titleTextView" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

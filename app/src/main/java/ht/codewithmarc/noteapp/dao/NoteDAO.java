@@ -27,7 +27,7 @@ public class NoteDAO {
 
     public boolean addNote(@NonNull Note note) {
 
-        SQLiteDatabase sqLiteDatabase = this.database.getWritableDatabase();
+        SQLiteDatabase db = this.database.getWritableDatabase();
 
         ContentValues contentValues = new ContentValues();
 
@@ -35,7 +35,7 @@ public class NoteDAO {
         contentValues.put(this.database.COLUMN_NOTE_CONTENTS, note.getContents());
         contentValues.put(this.database.COLUMN_NOTE_DATE, note.getDate().toString());
 
-        return sqLiteDatabase.insert(this.database.NOTES_TABLE, null, contentValues) > 0;
+        return db.insert(this.database.NOTES_TABLE, null, contentValues) > 0;
     }
 
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -43,17 +43,17 @@ public class NoteDAO {
 
         List<Note> notes = new ArrayList<>();
 
-        SQLiteDatabase sqLiteDatabase = this.database.getReadableDatabase();
+        SQLiteDatabase db = this.database.getReadableDatabase();
 
         String query = "SELECT * FROM " + this.database.NOTES_TABLE;
 
         if (searchValue != null) {
             query = "SELECT * FROM " +
                     this.database.NOTES_TABLE + " WHERE " +
-                    this.database.COLUMN_NOTE_CONTENTS + " LIKE %'" + searchValue + "%'";
+                    this.database.COLUMN_NOTE_CONTENTS + " LIKE '%" + searchValue + "%'";
         }
 
-        Cursor cursor = sqLiteDatabase.rawQuery(query, null);
+        Cursor cursor = db.rawQuery(query, null);
 
         if (cursor.moveToFirst()) {
             do {

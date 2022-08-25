@@ -16,12 +16,24 @@
         "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\drawable-anydpi\\ic_search.xml"
     },
     {
+        "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\drawable-hdpi_ic_save.png.flat",
+        "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\drawable-hdpi\\ic_save.png"
+    },
+    {
         "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\drawable-xhdpi_ic_save.png.flat",
+        "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\drawable-xhdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\drawable-mdpi_ic_save.png.flat",
+        "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\drawable-mdpi\\ic_save.png"
     },
     {
         "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -48,8 +60,8 @@
         "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\layout\\fragment_note_add.xml"
     },
     {
-        "merged": "ht.codewithmarc.noteapp-merged_res-29:/layout_fragment_note_list.xml.flat",
-        "source": "ht.codewithmarc.noteapp-main-31:/layout/fragment_note_list.xml"
+        "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\drawable-anydpi_ic_save.xml.flat",
+        "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\drawable-anydpi\\ic_save.xml"
     },
     {
         "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\drawable-mdpi_ic_search.png.flat",
@@ -60,8 +72,16 @@
         "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "ht.codewithmarc.noteapp-merged_res-29:/layout_note.xml.flat",
+        "source": "ht.codewithmarc.noteapp-main-31:/layout/note.xml"
+    },
+    {
         "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\drawable-xxhdpi_ic_search.png.flat",
         "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\drawable-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\drawable-xxhdpi_ic_save.png.flat",
+        "source": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-main-31:\\drawable-xxhdpi\\ic_save.png"
     },
     {
         "merged": "C:\\Users\\codewithmarc\\.gradle\\daemon\\7.3.3\\ht.codewithmarc.noteapp-merged_res-29:\\drawable-anydpi_ic_add_note.xml.flat",
